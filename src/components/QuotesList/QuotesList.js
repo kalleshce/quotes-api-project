@@ -17,7 +17,7 @@ const QuotesList = () => {
       <ListItem>
         <ListItemText primary={item.content}></ListItemText>
         <Stack direction="row" spacing={1}>
-          <Chip label={'Mr ' + item.author} variant="outlined" />
+          <Chip label={item.author} variant="outlined" />
         </Stack>
       </ListItem>
     )
