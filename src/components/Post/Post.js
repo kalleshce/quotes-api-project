@@ -2,12 +2,10 @@ import { Avatar, Box, Card, CardActions, CardContent, CardHeader, CardMedia, Che
 import ShareIcon from '@mui/icons-material/Share';
 import React from 'react'
 import { Favorite, FavoriteBorder } from '@mui/icons-material';
-import Post from '../Post/Post';
 
-const Feed = () => {
+const Post = () => {
   return (
-    <>
-      <Box flex={4}>
+    <Box flex={4}>
         <Card >
           <CardHeader
             avatar={
@@ -39,10 +37,8 @@ const Feed = () => {
             </IconButton>
           </CardActions>
         </Card>
-        <Post />
-      </Box >
-    </>
+    </Box >
   )
 }
 
-export default Feed
+export default Post
